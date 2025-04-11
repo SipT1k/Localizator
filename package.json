@@ -1,0 +1,13 @@
+{
+    "name": "wuthery-localizator-scripts",
+    "version": "0.1.0",
+    "scripts": {
+        "update-from-db": "node scripts/update-from-db.js",
+        "generate-dbs": "node scripts/generate-dbs.js",
+        "preinstall": "npx only-allow pnpm"
+    },
+    "author": "JokelBaf",
+    "dependencies": {
+        "sqlite3": "^5.1.7"
+    }
+}
