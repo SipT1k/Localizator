@@ -1,0 +1,9 @@
+"files": [
+  {
+    "source": "/localizations/en.json",
+    "translation": "/localizations/%osx_locale%.json"
+  },
+]
+"pull_request_title": "chore(l10n): Sync with Crowdin"
+"commit_message": "chore(l10n): Update %language% translations"
+"append_commit_message": false
