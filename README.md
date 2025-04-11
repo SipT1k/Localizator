@@ -11,7 +11,7 @@ TBD.
 
 ## Contributing
 
-If you would like to contribute to localization, feel free to do so via our [Crowdin Project](https://crowdin.com/project/wuthery-localizator). If you want a new language to be added to the repo, please open an issue.
+If you would like to contribute to localization, feel free to clone this repository and edit language files in [`/localizations`](/localizations/) directory. If you want a new language to be added to the repo, please open an issue.
 
 ## Scripts
 
