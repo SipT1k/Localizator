@@ -24,12 +24,24 @@ jobs:
       - name: Generate DBs from localizations
         run: pnpm generate-dbs
 
+      - name: Upload DB artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: db-files
+          path: dist/*.db
+
   publish-release:
     runs-on: ubuntu-latest
     needs: generate-dbs
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Download DB artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: db-files
+          path: dist
 
       - name: Set release date and tag
         id: set_release_data
