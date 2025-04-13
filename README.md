@@ -19,7 +19,7 @@ Here is a small guide on how to install and use Wuthery Localizator.
 ### Installation
 
 Follow these steps to install Wuthery Localizator:
-1. Go to the latest release and download [localizator installer](https://github.com/Wuthery/Localizator/releases/latest/download/wuthery-localizator-app_0.1.0_x64-setup.exe).
+1. Go to the [latest release](https://github.com/Wuthery/Localizator/releases/latest) and download localizator installer.
 2. Run the installer and follow the instructions.
 3. Launch Wuthery Localizator.
 4. Configure options to suit your needs.
