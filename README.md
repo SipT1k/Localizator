@@ -5,6 +5,10 @@ Lets you localize your game with any language you want.
 > [!CAUTION]
 > You may get banned for using this tool. There weren't any reports of bans **yet**, but we highly recommend against using Wuthery Localizator on your main account.
 
+## Preview
+
+![Preview](/images/preview.png)
+
 ## Installing and using the localizator
 
 Here is a small guide on how to install and use Wuthery Localizator.
