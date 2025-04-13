@@ -81,3 +81,14 @@ To generate db files from the localization files, run the following command:
 ```bash
 pnpm generate-dbs
 ```
+
+## Changelog
+
+### 0.2.0
+
+- Added option to disable console.
+- Some internal fixes and improvements.
+
+### 0.1.0
+
+- Initial release.
