@@ -31,6 +31,7 @@ Follow these steps to install Wuthery Localizator:
 #### Options
 
 - **Game Path** - Path to the root folder of the game. Example: `E:\Wuthering Waves`
+- **Show Console** - Whether to show the console window with logs from the localizator core when the game is running.
 - **Disable Anti Data** - Disables anti-cheat packets sent by the game via UDP. The game will still send ACE data over TCP so this doesn't guarantee that you won't get banned.
 - **Enable HTTP Interceptor** - Intercepts and drops some useless requests to Kuro datacenter. In fact those are unlikely to be related to the anti-cheat. but better be safe than sorry.
 - **Disable Tpsafe** - Completely disables the anti-cheat. This is the most effective way to avoid getting banned, but you will get kicked every 10-15 minutes because the game server will not receive any anti-cheat data.
