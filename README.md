@@ -65,6 +65,17 @@ Wuthery localizator modifies game files when you "patch" the game. Whenever you 
 
 If you would like to contribute to localization, feel free to clone this repository and edit language files in [`/localizations`](/localizations/) directory. If you want a new language to be added to the repo, please open an issue.
 
+Please follow these simple rules when contributing:
+- All commit/PR messages must be in English and follow [Conventional Commits](https://www.conventionalcommits.org);
+- Localization files must be in UTF-8 encoding;
+- JSON files must be formatted with 2 spaces indentation.
+
+When contributing, you can test your changes locally:
+1. Generate db files from localization files using the [`generate-dbs`](#generate-db-files-usable-in-the-game) script;
+2. Serve the files using the [`serve`](#serve-generated-db-files) script and copy the local URL given by the script;
+3. Paste the URL into the **Localization DB URL** field in Wuthery Localizator and **Re-patch the game**;
+4. Launch the game and check if everything works as expected.
+
 ## Scripts
 
 The repository contains a few helpful JS scripts.
@@ -81,6 +92,13 @@ pnpm update-from-db
 To generate db files from the localization files, run the following command:
 ```bash
 pnpm generate-dbs
+```
+
+### Serve generated db files
+
+You can serve generated db files locally to test them:
+```bash
+pnpm serve
 ```
 
 ## Changelog
