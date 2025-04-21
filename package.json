@@ -4,6 +4,7 @@
     "scripts": {
         "update-from-db": "node scripts/update-from-db.js",
         "generate-dbs": "node scripts/generate-dbs.js",
+        "serve": "node scripts/serve.js",
         "preinstall": "npx only-allow pnpm"
     },
     "author": "JokelBaf",
