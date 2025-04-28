@@ -103,6 +103,10 @@ pnpm serve
 
 ## Changelog
 
+### 0.3.0
+
+- Game version 2.3 support.
+
 ### 0.2.0
 
 - Added option to disable console.
