@@ -103,6 +103,10 @@ pnpm serve
 
 ## Changelog
 
+### 0.3.1
+
+- Made installer evaluate the app with admin privileges if "Run Wuthery Localizator" is checked.
+
 ### 0.3.0
 
 - Game version 2.3 support.
