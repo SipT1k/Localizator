@@ -27,7 +27,7 @@ async function closeDatabase(db) {
 }
 
 async function writeJsonFile(path, data) {
-    const json = JSON.stringify(data, null, 2);
+    const json = JSON.stringify(data, null, 4);
     await fs.writeFile(path, json, "utf8");
 }
 
